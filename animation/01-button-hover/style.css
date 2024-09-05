@@ -16,4 +16,15 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+
+}
+
+button:hover {
+  /*What I did: padding: 24px 36px;*/
+  transform: scale(1.1)
+}
+
+/*How to make the button scale up gradually*/
+button {
+  transition: transform .3s ease-in-out
 }
