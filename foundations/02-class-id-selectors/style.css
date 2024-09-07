@@ -1,0 +1,21 @@
+.odd {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: rgb(255, 167, 167);
+}
+
+#two {
+    color:hsl(240, 100%, 50%);
+    font-size: 36px;
+}
+
+#three {
+    font-size: 24px; /*<-*/
+}
+
+#four {
+    background-color: #71ee71;
+    font-size: 24px; /*<-*/
+    font-weight: bold;
+}
+
+/* three and four font sizes could have been merged into class adjust-font-size*/
